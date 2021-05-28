@@ -1,0 +1,24 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+	int num1;
+	int resultado;
+	int resultado2;
+	
+	cout <<"Entre com o primeiro numero: ";
+	cin >> num1;
+	
+	resultado = num1 / 3 ;
+	resultado2 = resultado % 7 ;
+	
+	if (resultado2 == 0){
+		cout << "O numero e divisel por 3 e por 7 ";
+	}
+	
+	else{
+		cout << "O numero nao e divisivel por 3 e por 7 ";
+	}
+	system ("pause");
+	return 0;
+}
