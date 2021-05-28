@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+	int num1;
+	int resultado;
+	
+	cout <<"Entre com um numero: ";
+	cin >> num1;
+	
+	resultado = num1 % 3;
+	
+	if (resultado == 0){
+		cout << num1 << " e multiplo de 3";
+	}
+	
+	else{
+		cout << num1 << " nao e multiplo de 3 ";
+	}
+	system ("pause");
+	return 0;
+}
