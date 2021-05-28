@@ -1,0 +1,30 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+	int num1;
+	int num2;
+	int soma;
+	
+	cout <<"\nEntre com o primeiro numero: ";
+	cin >> num1;
+	
+	cout <<"\nEntre com o segundo numero: ";
+	cin >> num2;
+	
+	soma = num1 + num2;
+	
+	if (soma >= 10){
+		
+	cout <<"\nO resultado da soma e: " << soma;
+	cin >> soma; 
+}
+	
+	else{
+		cout <<"\nO resultado e menor que 10 ";
+	    cin >> soma;
+	}
+	
+	system ("pause");
+	
+	}
