@@ -1,0 +1,58 @@
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+	int num1;
+	int num2;
+	int num3;
+	int num4;
+	int maior=num1;
+	int menor=num1;
+	
+	cout << " Entre com um numero: \n ";
+	cin >> num1;
+	cout <<" Entre com outro numero:\n ";
+	cin >> num2;
+	cout << " Entre com um numero: \n ";
+	cin >> num3;
+	cout <<" Entre com outro numero: \n ";
+	cin >> num4;
+	
+	if(maior < num2){
+	maior = num2;
+	}
+	
+	if(maior < num3){
+	maior = num3;
+	}
+	
+	if(maior < num4){
+	maior = num4;
+	}
+	
+	if(maior == num1){
+	maior = num1;
+	}
+	
+	//menor
+	menor = num1;
+	if(menor > num2){
+	menor=num2;
+	}
+	
+	if(menor > num3){
+	menor = num3;
+	}
+	
+	if(menor > num4){
+	menor = num4;
+	}
+	
+	if(maior==num1){
+	menor = num1;
+    }
+	cout << maior; 
+	cout << "\n" <<menor;
+    }
