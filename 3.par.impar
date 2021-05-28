@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+	int num1;
+	int resultado;
+	
+	cout <<"Entre com o numero: ";
+	cin >> num1;
+	
+	resultado = num1 % 2;
+	
+	if(resultado == 0){
+		cout << "\nO numero e par ";
+		cin >> resultado;
+	}
+	
+	else{
+		cout << "\nO numero e impar ";
+		cin >> resultado;
+		
+		system("pause");
+	}
+	return 0;
+}
