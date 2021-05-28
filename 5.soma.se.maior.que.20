@@ -1,0 +1,29 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+	int num1;
+	int num2;
+	int soma;
+	
+	cout <<"\nEntre com o primeiro numero: ";
+	cin >> num1;
+	
+	cout <<"\nEntre com o segundo numero: ";
+	cin >> num2;
+	
+	soma = num1 + num2;
+	
+	if (soma > 20){
+		soma = soma + 8;
+		
+		cout <<"\n" << soma;
+	}
+	
+	if (soma <= 20){
+		soma = soma - 5;
+		cout <<"\n" << soma;
+	}
+	system ("pause");
+	
+}
