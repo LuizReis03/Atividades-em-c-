@@ -1,0 +1,29 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+	int num1;
+	int num2;
+	int contador = 1;
+	int controle = 0;
+	
+	cout << "Entre com um numero e veja sua raiz ou potencia: ";
+	cin >> num1;
+	if(num1 >= 0){
+
+	while (num1 != 0){
+		num1 = num1 - contador;
+		contador = contador + 2;
+		controle++;
+	}
+	
+	cout << controle << "\n";
+    }
+    
+    else{
+    	num1 = num1 * num1;
+    	cout << num1 << "\n";
+	}
+	system("pause");
+	return 0;
+}
