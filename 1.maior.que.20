@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+	int num1;
+	
+	cout << "Entre com um numero: ";
+	cin >> num1;
+	
+	if (num1 > 20){
+		cout <<"\nO numero digitado foi: " << num1 << "\n";
+		
+		system ("pause");
+	}
+	return 0;
+}
