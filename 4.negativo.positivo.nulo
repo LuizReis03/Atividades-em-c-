@@ -1,0 +1,27 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+	int num1;
+	
+	cout <<"\nEntre com o primeiro numero: ";
+	cin >> num1;
+	
+	if (num1 > 1){
+	cout <<"\nEsse numero e positivo";
+	cin >> num1;
+	}
+	
+	if (num1 == 0){
+	cout <<"\nEsse numero e nulo";
+	cin >> num1;
+	}
+	
+	if (num1 < 0){
+	cout <<"\nEsse numero e negativo";
+	cin >> num1;
+	}
+	
+	system ("pause");
+	
+	}
